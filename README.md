@@ -1,4 +1,4 @@
-# Robust and Adaptive Entity Alignment
+# Revisiting Embedding-based Entity Alignment: A Robust and Adaptive Method
 
 > Entity alignment—the discovery of identical entities across different knowledge graphs (KGs)—is a critical task in data fusion.
 In this paper, we revisit existing entity alignment methods in practical and challenging scenarios. Our empirical studies show that current
@@ -42,3 +42,18 @@ $ python main.py --model RoadEA --input ../datasets/DBP_en_DBP_fr_15K_V1/
 ```
 
 > If you have any difficulty or question in running code and reproducing experimental results, please email to zqsun.nju@gmail.com or yuxinwangcs@outlook.com.
+
+## Citation
+
+```
+@article{RoadEA,
+  author    = {Zequn Sun and
+               Wei Hu and
+               Chengming Wang and
+               Yuxin Wang and 
+               Yuzhong Qu},
+  title     = {Revisiting Embedding-based Entity Alignment: A Robust and Adaptive Method},
+  journal   = {IEEE Transactions on Knowledge and Data Engineering},
+  year      = {2022}
+}
+```
